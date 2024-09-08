@@ -11,6 +11,7 @@ def get_advanced_writer(file_name):
                 file.write(f'{data}\n')
     return  write_everything
 
+
 write = get_advanced_writer('example.txt')
 write('Это строчка', ['А', 'это', 'уже', 'число', 5, 'в', 'списке'])
 
